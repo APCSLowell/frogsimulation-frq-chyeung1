@@ -30,7 +30,7 @@ public class FrogSimulation
 	public double runSimulations(int num)
 	{ 
 		/* to be implemented in part (b) */ 
-		int successes = 0;
+		double successes = 0;
 		for(int i = 0; i < num; i++){
 		if(simulate()) successes++;
 		}
