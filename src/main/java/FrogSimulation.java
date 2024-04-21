@@ -34,7 +34,9 @@ public class FrogSimulation
 		for(int i = 0; i < num; i++){
 		if(simulate()) successes++;
 		}
+		if(successes > 0)
 		return successes/num;
+		return 0;
 	}
 	
 	
